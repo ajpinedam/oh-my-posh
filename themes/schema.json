@@ -460,6 +460,7 @@
             "todoist",
             "ui5tooling",
             "umbraco",
+            "uno",
             "unity",
             "upgrade",
             "v",
@@ -4545,6 +4546,19 @@
           "then": {
             "title": "Umbraco Segment",
             "description": "https://ohmyposh.dev/docs/segments/cli/umbraco"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "uno"
+              }
+            }
+          },
+          "then": {
+            "title": "Uno Platform Segment",
+            "description": "https://ohmyposh.dev/docs/segments/cli/uno"
           }
         },
         {
